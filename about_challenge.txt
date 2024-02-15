@@ -1,0 +1,30 @@
+Hi 
+
+Hope everyone is doing well. Today we kickoff the 30-Days-Of-Nodejs-Challenge
+
+Quick reminders to get started:
+
+Ensure you signup for the Nodejs Course on Scaler Topics: 
+
+https://www.scaler.com/topics/course/nodejs
+
+Start solving this course, you dont have to complete it in 1 day but ensure you do it regularly and complete it in this month. 
+
+Solve the problem of the day: https:
+
+//github.com/shivscaler/Nodejs-30-Days-Challenge-Scaler-Topics/blob/main/Question1.md
+
+You can try to solve it where ever you want, locally in your IDE or anywhere else - online or in cloud. It is upto you. 
+
+You have to post daily on Social Media about this.
+For Submission and social posting, Refer to the FAQS: 
+
+https://docs.google.com/document/d/1DczLJEYWnudrfDmTK14x3jhzla-ZM0j608ZbpLDCWPQ/edit#heading=h.p7e2g6hkfebv
+
+
+P.S. even if you are unable to solve the question of the day, dont worry just post on social media that you tried solvng. 
+
+
+Happy Learning! 
+
+⁠30-days-of-node-js
