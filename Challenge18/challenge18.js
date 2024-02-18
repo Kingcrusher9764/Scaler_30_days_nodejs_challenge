@@ -20,8 +20,12 @@ const UserSchema = new mongoose.Schema({
 const User = mongoose.model("Users", UserSchema);
 
 app.get("/users", async (req, res)=>{
-    const userData = await User.find();
-    res.json({UserData: userData});
+    try{
+        const userData = await User.find();
+        res.json({UserData: userData});
+    }catch(err){
+        console.log("Error in fetching users data: ", err);
+    }
 })
 
 app.listen(port, ()=>{
