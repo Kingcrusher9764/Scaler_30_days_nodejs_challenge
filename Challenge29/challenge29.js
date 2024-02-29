@@ -11,6 +11,7 @@ class CustomError extends Error{
 }
 function errorHandler(err, req, res, next){
     console.log(err.message)
+    // All the error are handled using errorHandler middleware
     if(err instanceof CustomError){
         res.status(err.status).send(err.message)
     }else{
@@ -19,7 +20,7 @@ function errorHandler(err, req, res, next){
 }
 
 app.get("/", (req, res, next)=>{
-    next(new CustomError(404, "Custom made error"))
+    next(new CustomError(404, "Custom made error!"))
 })
 app.use(errorHandler)
 app.listen(port, ()=>{
